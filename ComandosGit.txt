@@ -1,0 +1,57 @@
+Credenciales iniciales
+
+$ git config --global user.name "David Blanco"
+$ git config --global user.email davidblanco@gregoriofer.com
+
+
+Iniciando el repositorio
+
+$ git init
+o
+$ git clone <url del repositorio>
+
+
+Commits
+
+Añadir cambios
+$ git add <archivo.*>
+
+Comprobar cambios
+$ git status
+
+Commit
+$ git commit -m “mensaje ”
+
+Ver los últimos Commit
+$ git log
+
+Volver a una versión anterior
+$ git checkout <número en cuestión>
+
+
+
+Crear Nueva rama
+$ git branch <nombre de la rama>
+
+Cambiar a otra rama
+$ git checkout <nombre de la rama>
+
+Mergear ramas
+$ git merge <nombre de la ramificación>
+
+
+git push origin master
+
+git pull origin
+
+
+Más Comandos
+
+Para cualquier duda puedes consultar la ayuda de git en cualquier comando con -h
+- Puedes guardar tu progreso del repositorio con git stash en lugar de commit si consideras que tienes algo a medias o que no funcione ya que commitear en estos casos es una mala práctica de git
+- Si consideras que un cambio no es lo suficientemente grande como  para hacer un nuevo commit puedes utilizar git commit --amend para añadir los cambios al ltimo commit.
+- Puedes usar git revert <commit> para revertir un commit produciendo uno nuevo con los cambios inversos.
+- Puedes usar git reset --hard HEAD para descartar los cambios locales en tu carpeta
+- Puedes crear etiquetas para organizar tu trabajo, sobre un commit de manera que tengas etiquetas a la
+
+
